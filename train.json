@@ -1,5 +1,4 @@
-Train 7:
-
+[
 {
 "instruct": "Analisar correlação",
 "input": "dados de sono e blend de ansiolíticos",
@@ -188,3 +187,4 @@ Train 9:
 "input": "ao tratamento com cortisol e blend personalizado",
 "output": "digraph {\n  node [shape=circle];\n  \"Níveis de Cortisol\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\"];\n  \"Níveis de Cortisol\" -> \"Ansiedade\" [label=\"NCA\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\"];\n}"
 }
+]
