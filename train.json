@@ -1,252 +1,252 @@
 [
-{
-instruct: "Modelar resposta",
-input: "atenção à blend personalizado e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à blend personalizado e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à blend personalizado e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à blend personalizado e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend personalizado e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend personalizado e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend personalizado e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend personalizado e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com blend personalizado e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com blend personalizado e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Padrões de EEG\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Padrões de EEG\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com blend personalizado e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Condutância da Pele (EDA)\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Condutância da Pele (EDA)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com cortisol e blend personalizado",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Cortisol\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de cortisol e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "frequência cardíaca e resposta ao blend personalizado",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Frequência Cardíaca\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "ondas cerebrais e resposta ao blend personalizado",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Ondas Cerebrais (EEG)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "condutância da pele e resposta ao blend personalizado",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Condutância da Pele (EDA)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e blend de ansiolíticos personalizados",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de sono e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com sono e blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Qualidade do Sono\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Qualidade do Sono\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com motivação e passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com motivação e blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "sono e resposta ao blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Qualidade do Sono\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de sono e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "motivação e resposta ao blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend e qualidade do sono",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de sono e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com camomila e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com calêndula e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Calêndula\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Calêndula\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e cultivo consorciado",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Consorciado)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Consorciado)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à calêndula e qualidade do sono",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de sono e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-}
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à blend personalizado e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à blend personalizado e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à blend personalizado e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à blend personalizado e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend personalizado e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend personalizado e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend personalizado e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend personalizado e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com blend personalizado e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com blend personalizado e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Padrões de EEG\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Padrões de EEG\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com blend personalizado e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Condutância da Pele (EDA)\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Condutância da Pele (EDA)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com cortisol e blend personalizado",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Resposta ao Tratamento (Blend Personalizado)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Cortisol\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de cortisol e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "frequência cardíaca e resposta ao blend personalizado",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Frequência Cardíaca\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "ondas cerebrais e resposta ao blend personalizado",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Ondas Cerebrais (EEG)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "condutância da pele e resposta ao blend personalizado",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Condutância da Pele (EDA)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend Personalizado\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e blend de ansiolíticos personalizados",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend Personalizado\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend Personalizado\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de sono e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com sono e blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Qualidade do Sono\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Qualidade do Sono\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com motivação e passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com motivação e blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "sono e resposta ao blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Qualidade do Sono\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de sono e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "motivação e resposta ao blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend e qualidade do sono",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de sono e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com camomila e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com calêndula e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Calêndula\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Calêndula\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e cultivo consorciado",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Consorciado)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Consorciado)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à calêndula e qualidade do sono",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de sono e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    }
 ]
